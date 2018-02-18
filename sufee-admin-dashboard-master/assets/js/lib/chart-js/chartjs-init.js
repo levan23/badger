@@ -246,22 +246,15 @@
     var myChart = new Chart( ctx, {
         type: 'radar',
         data: {
-            labels: [ [ "Eating", "Dinner" ], [ "Drinking", "Water" ], "Sleeping", [ "Designing", "Graphics" ], "Coding", "Cycling", "Running" ],
+            labels: [ "Fraud", "Financial", "Social" , "Behavioural"],
             datasets: [
                 {
-                    label: "My First dataset",
-                    data: [ 65, 59, 66, 45, 56, 55, 40 ],
+                    label: "Features",
+                    data: [ 65, 56, 66, 45, ],
                     borderColor: "rgba(0, 123, 255, 0.6)",
                     borderWidth: "1",
                     backgroundColor: "rgba(0, 123, 255, 0.4)"
                             },
-                {
-                    label: "My Second dataset",
-                    data: [ 28, 12, 40, 19, 63, 27, 87 ],
-                    borderColor: "rgba(0, 123, 255, 0.7",
-                    borderWidth: "1",
-                    backgroundColor: "rgba(0, 123, 255, 0.5)"
-                            }
                         ]
         },
         options: {
